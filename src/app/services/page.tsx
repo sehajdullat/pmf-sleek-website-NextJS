@@ -17,7 +17,7 @@ const services = [
     {
         icon: Building2,
         title: "Full-Service Property Management",
-        description: "Complete oversight of your rental property from tenant placement to move-out. We handle everything so you don't have to.",
+        description: "Complete oversight of your rental property from tenant placement to move-out. We handle everything so you don&apos;t have to.",
         features: [
             "Tenant screening & placement",
             "Rent collection & enforcement",
@@ -128,7 +128,7 @@ export default function Services() {
                                         </div>
                                         <div>
                                             <h4 className="text-sm font-semibold text-muted-foreground mb-4 uppercase tracking-wide">
-                                                What's Included
+                                                What&apos;s Included
                                             </h4>
                                             <ul className="space-y-3">
                                                 {service.features.map((feature) => (
@@ -154,7 +154,7 @@ export default function Services() {
                         </ScrollDiv>
                         <ScrollDiv delay={200}>
                             <p className="text-lg text-primary-foreground/70 mb-8 max-w-xl mx-auto">
-                                Let's discuss your property and goals. We'll recommend the right approach.
+                                Let&apos;s discuss your property and goals. We&apos;ll recommend the right approach.
                             </p>
                         </ScrollDiv>
                         <ScrollDiv delay={300} animation="scale">

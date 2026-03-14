@@ -10,7 +10,7 @@ const values = [
   {
     icon: FileText,
     title: "Clear Pricing & Contracts",
-    description: "No hidden fees. No surprises. You'll always know exactly what you're paying for.",
+    description: "No hidden fees. No surprises. You&apos;ll always know exactly what you&apos;re paying for.",
   },
   {
     icon: Clock,
@@ -31,7 +31,7 @@ export function ValueProposition() {
         <ScrollDiv className="text-center mb-12" delay={100}>
           <h2 className="mb-4">Why Property Owners Choose PMF</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We built our systems around what owners actually need—not what's convenient for us.
+            We built our systems around what owners actually need—not what&apos;s convenient for us.
           </p>
         </ScrollDiv>
 

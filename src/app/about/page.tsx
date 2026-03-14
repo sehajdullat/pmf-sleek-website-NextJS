@@ -13,11 +13,11 @@ const values = [
     },
     {
         title: "Owner-Centric Approach",
-        description: "We built our systems around what property owners actually need—not what's convenient for us.",
+        description: "We built our systems around what property owners actually need—not what&apos;s convenient for us.",
     },
     {
         title: "Local Accountability",
-        description: "We're not a national franchise. We're a local team that knows your market and stands behind our work.",
+        description: "We&apos;re not a national franchise. We&apos;re a local team that knows your market and stands behind our work.",
     },
     {
         title: "Professional Standards",
@@ -69,13 +69,13 @@ export default function About() {
                             <h2 className="text-2xl font-semibold mb-6">Our Story</h2>
                             <div className="prose prose-slate max-w-none">
                                 <p className="text-muted-foreground mb-4">
-                                    PMF started in 2018 when our founder, Jennifer Martinez, grew frustrated with the property management companies she was working with as an investor. Hidden fees, poor communication, and a "tenant-first" approach that ignored owner concerns.
+                                    PMF started in 2018 when our founder, Jennifer Martinez, grew frustrated with the property management companies she was working with as an investor. Hidden fees, poor communication, and a &quot;tenant-first&quot; approach that ignored owner concerns.
                                 </p>
                                 <p className="text-muted-foreground mb-4">
                                     She knew there had to be a better way. So she built it.
                                 </p>
                                 <p className="text-muted-foreground">
-                                    Today, PMF manages over 300 properties across Central Texas. We've grown because owners refer us to other owners. No aggressive marketing. No sales tactics. Just consistent, professional property management that speaks for itself.
+                                    Today, PMF manages over 300 properties across Central Texas. We&apos;ve grown because owners refer us to other owners. No aggressive marketing. No sales tactics. Just consistent, professional property management that speaks for itself.
                                 </p>
                             </div>
                         </ScrollDiv>
@@ -179,7 +179,7 @@ export default function About() {
                         </ScrollDiv>
                         <ScrollDiv delay={200}>
                             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-                                Let's discuss your property and see if PMF is the right fit.
+                                Let&apos;s discuss your property and see if PMF is the right fit.
                             </p>
                         </ScrollDiv>
                         <ScrollDiv delay={300} animation="scale">

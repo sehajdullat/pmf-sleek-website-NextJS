@@ -176,7 +176,7 @@ export default function Owners() {
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <CheckCircle size={20} className="text-sage shrink-0 mt-0.5" />
-                                    <span><strong>Reserve transparency</strong> — You always know what's in your maintenance reserve</span>
+                                    <span><strong>Reserve transparency</strong> — You always know what&apos;s in your maintenance reserve</span>
                                 </li>
                             </ul>
                         </ScrollDiv>

@@ -17,7 +17,7 @@ const areas = [
         city: "Round Rock",
         state: "TX",
         neighborhoods: ["Downtown Round Rock", "Old Settlers Park", "Brushy Creek", "Paloma Lake"],
-        description: "Growing suburb with strong rental demand. We've managed here since 2019.",
+        description: "Growing suburb with strong rental demand. We&apos;ve managed here since 2019.",
     },
     {
         city: "Cedar Park",
@@ -146,7 +146,7 @@ export default function Areas() {
                                 "We know fair market rents down to the neighborhood level",
                                 "Our vendors are vetted locals—not national call centers",
                                 "We understand city-specific regulations and requirements",
-                                "Quick response times because we're actually here",
+                                "Quick response times because we&apos;re actually here",
                             ].map((item, index) => (
                                 <ScrollDiv key={item} className="flex items-start gap-3" delay={200 + index * 75}>
                                     <CheckCircle size={20} className="text-sage shrink-0 mt-0.5" />
@@ -165,7 +165,7 @@ export default function Areas() {
                         </ScrollDiv>
                         <ScrollDiv delay={200}>
                             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-                                Let's discuss your property and see how PMF can help.
+                                Let&apos;s discuss your property and see how PMF can help.
                             </p>
                         </ScrollDiv>
                         <ScrollDiv delay={300} animation="scale">

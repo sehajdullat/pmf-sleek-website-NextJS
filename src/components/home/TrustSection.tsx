@@ -3,7 +3,7 @@ import { ScrollSection, ScrollDiv } from "@/components/ui/scroll-section";
 
 const testimonials = [
   {
-    content: "PMF has managed our properties for 3 years now. They're organized, responsive, and actually treat our tenants well. It's rare to find that combination.",
+    content: "PMF has managed our properties for 3 years now. They&apos;re organized, responsive, and actually treat our tenants well. It&apos;s rare to find that combination.",
     author: "Michael R.",
     role: "Owner of 4 rental properties",
     rating: 5,
@@ -53,7 +53,7 @@ export function TrustSection() {
                 ))}
               </div>
               <p className="text-foreground mb-6 text-sm leading-relaxed">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </p>
               <div>
                 <p className="font-semibold text-sm">{testimonial.author}</p>

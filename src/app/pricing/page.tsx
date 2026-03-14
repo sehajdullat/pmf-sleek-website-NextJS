@@ -23,7 +23,7 @@ const managementFees = {
 const placementFee = {
     title: "Tenant Placement",
     percentage: "50–75%",
-    description: "of first month's rent (one-time)",
+    description: "of first month&apos;s rent (one-time)",
     includes: [
         "Professional photography & listings",
         "Multi-platform marketing",
@@ -37,7 +37,7 @@ const additionalServices = [
     { service: "Lease renewal", fee: "$150–$250" },
     { service: "Eviction coordination", fee: "$300+ (plus legal costs)" },
     { service: "Property inspection (additional)", fee: "$75–$100" },
-    { service: "Maintenance markup", fee: "None (we don't mark up vendor costs)" },
+    { service: "Maintenance markup", fee: "None (we don&apos;t mark up vendor costs)" },
 ];
 
 export default function Pricing() {
@@ -53,7 +53,7 @@ export default function Pricing() {
                         </ScrollDiv>
                         <ScrollDiv delay={200}>
                             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-                                We believe in straightforward pricing. Here's exactly what our services cost—no hidden fees, no fine print.
+                                We believe in straightforward pricing. Here&apos;s exactly what our services cost—no hidden fees, no fine print.
                             </p>
                         </ScrollDiv>
                     </div>
@@ -142,7 +142,7 @@ export default function Pricing() {
                                 <div>
                                     <h3 className="text-lg font-semibold mb-2">Our No Hidden Fees Promise</h3>
                                     <p className="text-muted-foreground mb-4">
-                                        We don't charge for things other companies sneak into contracts:
+                                        We don&apos;t charge for things other companies sneak into contracts:
                                     </p>
                                     <ul className="grid sm:grid-cols-2 gap-2">
                                         {[

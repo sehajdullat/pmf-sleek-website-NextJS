@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
@@ -256,7 +255,7 @@ export default function Tenants() {
                                     <div>
                                         <h4 className="font-semibold mb-1">Approval & Lease Signing</h4>
                                         <p className="text-sm text-muted-foreground">
-                                            If approved, you'll receive your lease for electronic signature and move-in instructions.
+                                            If approved, you&apos;ll receive your lease for electronic signature and move-in instructions.
                                         </p>
                                     </div>
                                 </div>

@@ -28,7 +28,7 @@ export default function Contact() {
         setIsSubmitted(true);
         toast({
             title: "Message sent!",
-            description: "We'll get back to you within 24 hours.",
+            description: "We&apos;ll get back to you within 24 hours.",
         });
     };
 
@@ -40,11 +40,11 @@ export default function Contact() {
                 <ScrollSection className="section-padding bg-gradient-to-b from-sage-light/30 to-background">
                     <div className="container-narrow text-center">
                         <ScrollDiv delay={100}>
-                            <h1 className="mb-6">Let's Talk About Your Property</h1>
+                            <h1 className="mb-6">Let&apos;s Talk About Your Property</h1>
                         </ScrollDiv>
                         <ScrollDiv delay={200}>
                             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-                                Whether you're exploring management options or ready to get started, we're here to help.
+                                Whether you&apos;re exploring management options or ready to get started, we&apos;re here to help.
                             </p>
                         </ScrollDiv>
                     </div>
@@ -66,7 +66,7 @@ export default function Contact() {
                                             </div>
                                             <h3 className="text-lg font-semibold mb-2">Thank You!</h3>
                                             <p className="text-muted-foreground">
-                                                We've received your message and will respond within 24 hours.
+                                                We&apos;ve received your message and will respond within 24 hours.
                                             </p>
                                         </div>
                                     ) : (
@@ -126,7 +126,7 @@ export default function Contact() {
                                             </Button>
 
                                             <p className="text-xs text-muted-foreground text-center">
-                                                We'll respond within 24 hours. No spam, ever.
+                                                We&apos;ll respond within 24 hours. No spam, ever.
                                             </p>
                                         </form>
                                     )}
